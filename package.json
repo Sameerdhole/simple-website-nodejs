@@ -1,9 +1,9 @@
 {
   "name": "ex-website",
   "version": "0.0.0",
-  "private": true,
+  "main":"index.js"
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
